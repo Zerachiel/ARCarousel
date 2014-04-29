@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B30E146190F9DF9000522B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B30E145190F9DF9000522B5 /* Foundation.framework */; };
+		3B30E148190F9DF9000522B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B30E147190F9DF9000522B5 /* CoreGraphics.framework */; };
+		3B30E14A190F9DF9000522B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B30E149190F9DF9000522B5 /* UIKit.framework */; };
+		3B30E150190F9DF9000522B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B30E14E190F9DF9000522B5 /* InfoPlist.strings */; };
+		3B30E152190F9DF9000522B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B30E151190F9DF9000522B5 /* main.m */; };
+		3B30E156190F9DF9000522B5 /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B30E155190F9DF9000522B5 /* ARAppDelegate.m */; };
+		3B30E159190F9DF9000522B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B30E157190F9DF9000522B5 /* Main.storyboard */; };
+		3B30E15C190F9DF9000522B5 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B30E15B190F9DF9000522B5 /* ARViewController.m */; };
+		3B30E15E190F9DF9000522B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B30E15D190F9DF9000522B5 /* Images.xcassets */; };
+		3B30E165190F9DF9000522B5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B30E164190F9DF9000522B5 /* XCTest.framework */; };
+		3B30E166190F9DF9000522B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B30E145190F9DF9000522B5 /* Foundation.framework */; };
+		3B30E167190F9DF9000522B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B30E149190F9DF9000522B5 /* UIKit.framework */; };
+		3B30E16F190F9DF9000522B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B30E16D190F9DF9000522B5 /* InfoPlist.strings */; };
+		3B30E171190F9DF9000522B5 /* ARCarousel_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B30E170190F9DF9000522B5 /* ARCarousel_DemoTests.m */; };
+		3B30E17D190F9E13000522B5 /* FPCarouselNonXIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B30E17C190F9E13000522B5 /* FPCarouselNonXIBViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B30E168190F9DF9000522B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B30E13A190F9DF9000522B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B30E141190F9DF9000522B5;
+			remoteInfo = "ARCarousel-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B30E142190F9DF9000522B5 /* ARCarousel-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARCarousel-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B30E145190F9DF9000522B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B30E147190F9DF9000522B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B30E149190F9DF9000522B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B30E14D190F9DF9000522B5 /* ARCarousel-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARCarousel-Demo-Info.plist"; sourceTree = "<group>"; };
+		3B30E14F190F9DF9000522B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B30E151190F9DF9000522B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B30E153190F9DF9000522B5 /* ARCarousel-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARCarousel-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		3B30E154190F9DF9000522B5 /* ARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
+		3B30E155190F9DF9000522B5 /* ARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
+		3B30E158190F9DF9000522B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B30E15A190F9DF9000522B5 /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		3B30E15B190F9DF9000522B5 /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		3B30E15D190F9DF9000522B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B30E163190F9DF9000522B5 /* ARCarousel-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARCarousel-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B30E164190F9DF9000522B5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3B30E16C190F9DF9000522B5 /* ARCarousel-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARCarousel-DemoTests-Info.plist"; sourceTree = "<group>"; };
+		3B30E16E190F9DF9000522B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B30E170190F9DF9000522B5 /* ARCarousel_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCarousel_DemoTests.m; sourceTree = "<group>"; };
+		3B30E17B190F9E13000522B5 /* FPCarouselNonXIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPCarouselNonXIBViewController.h; sourceTree = "<group>"; };
+		3B30E17C190F9E13000522B5 /* FPCarouselNonXIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPCarouselNonXIBViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B30E13F190F9DF9000522B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B30E148190F9DF9000522B5 /* CoreGraphics.framework in Frameworks */,
+				3B30E14A190F9DF9000522B5 /* UIKit.framework in Frameworks */,
+				3B30E146190F9DF9000522B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B30E160190F9DF9000522B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B30E165190F9DF9000522B5 /* XCTest.framework in Frameworks */,
+				3B30E167190F9DF9000522B5 /* UIKit.framework in Frameworks */,
+				3B30E166190F9DF9000522B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B30E139190F9DF9000522B5 = {
+			isa = PBXGroup;
+			children = (
+				3B30E14B190F9DF9000522B5 /* ARCarousel-Demo */,
+				3B30E16A190F9DF9000522B5 /* ARCarousel-DemoTests */,
+				3B30E144190F9DF9000522B5 /* Frameworks */,
+				3B30E143190F9DF9000522B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B30E143190F9DF9000522B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B30E142190F9DF9000522B5 /* ARCarousel-Demo.app */,
+				3B30E163190F9DF9000522B5 /* ARCarousel-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B30E144190F9DF9000522B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B30E145190F9DF9000522B5 /* Foundation.framework */,
+				3B30E147190F9DF9000522B5 /* CoreGraphics.framework */,
+				3B30E149190F9DF9000522B5 /* UIKit.framework */,
+				3B30E164190F9DF9000522B5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B30E14B190F9DF9000522B5 /* ARCarousel-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3B30E17A190F9DFF000522B5 /* ARCarousel */,
+				3B30E154190F9DF9000522B5 /* ARAppDelegate.h */,
+				3B30E155190F9DF9000522B5 /* ARAppDelegate.m */,
+				3B30E157190F9DF9000522B5 /* Main.storyboard */,
+				3B30E15A190F9DF9000522B5 /* ARViewController.h */,
+				3B30E15B190F9DF9000522B5 /* ARViewController.m */,
+				3B30E15D190F9DF9000522B5 /* Images.xcassets */,
+				3B30E14C190F9DF9000522B5 /* Supporting Files */,
+			);
+			path = "ARCarousel-Demo";
+			sourceTree = "<group>";
+		};
+		3B30E14C190F9DF9000522B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B30E14D190F9DF9000522B5 /* ARCarousel-Demo-Info.plist */,
+				3B30E14E190F9DF9000522B5 /* InfoPlist.strings */,
+				3B30E151190F9DF9000522B5 /* main.m */,
+				3B30E153190F9DF9000522B5 /* ARCarousel-Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B30E16A190F9DF9000522B5 /* ARCarousel-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B30E170190F9DF9000522B5 /* ARCarousel_DemoTests.m */,
+				3B30E16B190F9DF9000522B5 /* Supporting Files */,
+			);
+			path = "ARCarousel-DemoTests";
+			sourceTree = "<group>";
+		};
+		3B30E16B190F9DF9000522B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B30E16C190F9DF9000522B5 /* ARCarousel-DemoTests-Info.plist */,
+				3B30E16D190F9DF9000522B5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B30E17A190F9DFF000522B5 /* ARCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				3B30E17B190F9E13000522B5 /* FPCarouselNonXIBViewController.h */,
+				3B30E17C190F9E13000522B5 /* FPCarouselNonXIBViewController.m */,
+			);
+			name = ARCarousel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B30E141190F9DF9000522B5 /* ARCarousel-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B30E174190F9DF9000522B5 /* Build configuration list for PBXNativeTarget "ARCarousel-Demo" */;
+			buildPhases = (
+				3B30E13E190F9DF9000522B5 /* Sources */,
+				3B30E13F190F9DF9000522B5 /* Frameworks */,
+				3B30E140190F9DF9000522B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARCarousel-Demo";
+			productName = "ARCarousel-Demo";
+			productReference = 3B30E142190F9DF9000522B5 /* ARCarousel-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B30E162190F9DF9000522B5 /* ARCarousel-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B30E177190F9DF9000522B5 /* Build configuration list for PBXNativeTarget "ARCarousel-DemoTests" */;
+			buildPhases = (
+				3B30E15F190F9DF9000522B5 /* Sources */,
+				3B30E160190F9DF9000522B5 /* Frameworks */,
+				3B30E161190F9DF9000522B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B30E169190F9DF9000522B5 /* PBXTargetDependency */,
+			);
+			name = "ARCarousel-DemoTests";
+			productName = "ARCarousel-DemoTests";
+			productReference = 3B30E163190F9DF9000522B5 /* ARCarousel-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B30E13A190F9DF9000522B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Ares;
+				TargetAttributes = {
+					3B30E162190F9DF9000522B5 = {
+						TestTargetID = 3B30E141190F9DF9000522B5;
+					};
+				};
+			};
+			buildConfigurationList = 3B30E13D190F9DF9000522B5 /* Build configuration list for PBXProject "ARCarousel-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B30E139190F9DF9000522B5;
+			productRefGroup = 3B30E143190F9DF9000522B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B30E141190F9DF9000522B5 /* ARCarousel-Demo */,
+				3B30E162190F9DF9000522B5 /* ARCarousel-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B30E140190F9DF9000522B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B30E15E190F9DF9000522B5 /* Images.xcassets in Resources */,
+				3B30E150190F9DF9000522B5 /* InfoPlist.strings in Resources */,
+				3B30E159190F9DF9000522B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B30E161190F9DF9000522B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B30E16F190F9DF9000522B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B30E13E190F9DF9000522B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B30E17D190F9E13000522B5 /* FPCarouselNonXIBViewController.m in Sources */,
+				3B30E152190F9DF9000522B5 /* main.m in Sources */,
+				3B30E15C190F9DF9000522B5 /* ARViewController.m in Sources */,
+				3B30E156190F9DF9000522B5 /* ARAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B30E15F190F9DF9000522B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B30E171190F9DF9000522B5 /* ARCarousel_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B30E169190F9DF9000522B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B30E141190F9DF9000522B5 /* ARCarousel-Demo */;
+			targetProxy = 3B30E168190F9DF9000522B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B30E14E190F9DF9000522B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B30E14F190F9DF9000522B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B30E157190F9DF9000522B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B30E158190F9DF9000522B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B30E16D190F9DF9000522B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B30E16E190F9DF9000522B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B30E172190F9DF9000522B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3B30E173190F9DF9000522B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B30E175190F9DF9000522B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARCarousel-Demo/ARCarousel-Demo-Prefix.pch";
+				INFOPLIST_FILE = "ARCarousel-Demo/ARCarousel-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B30E176190F9DF9000522B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARCarousel-Demo/ARCarousel-Demo-Prefix.pch";
+				INFOPLIST_FILE = "ARCarousel-Demo/ARCarousel-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3B30E178190F9DF9000522B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARCarousel-Demo.app/ARCarousel-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARCarousel-Demo/ARCarousel-Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ARCarousel-DemoTests/ARCarousel-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3B30E179190F9DF9000522B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARCarousel-Demo.app/ARCarousel-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARCarousel-Demo/ARCarousel-Demo-Prefix.pch";
+				INFOPLIST_FILE = "ARCarousel-DemoTests/ARCarousel-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B30E13D190F9DF9000522B5 /* Build configuration list for PBXProject "ARCarousel-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B30E172190F9DF9000522B5 /* Debug */,
+				3B30E173190F9DF9000522B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B30E174190F9DF9000522B5 /* Build configuration list for PBXNativeTarget "ARCarousel-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B30E175190F9DF9000522B5 /* Debug */,
+				3B30E176190F9DF9000522B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B30E177190F9DF9000522B5 /* Build configuration list for PBXNativeTarget "ARCarousel-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B30E178190F9DF9000522B5 /* Debug */,
+				3B30E179190F9DF9000522B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B30E13A190F9DF9000522B5 /* Project object */;
+}
